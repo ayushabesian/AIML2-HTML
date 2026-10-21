@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title
+git 
+</head>
+
+     <!-- My first Html Experiment -->
+
+<body>
+
+    <h3>Introduction</h3>
+
+    <!-- use of tags--  <b>Bold </b> , <i>Italic </i> , <u> Underline </u>  -->
+    <!-- use of entities copyright- " &copy; " ,  less than - "&lt;" , greater than- "&gt"  -->
+
+    <p>Welcome to the <b>Course Curriculum </b>. This page demonstrates the use of <i>HTML formatting</i>,<u>lists</u>,and special characters such as &copy;,&lt;,&gt; . 
+
+
+    <h2>Semester 1 Subjects (Ordered List) </h2>
+
+    <!-- use of tag -- <ol> ordered list </ol>  -->
+
+    <ol> 
+        <li>Mathematics I</li>
+        <li>Computer Fundamentals</li>
+        <li>Programming in C</li>
+        <li>Electronics Basics</li>
+
+    </ol>
+
+    <h2>Programming Languages (Unordered List)</h2>
+
+    <!--  use of tag-- <ul> unordered list </ul>  -->
+
+    <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Cousre Description (Description List) </h3>
+
+    <!--  use of Block elements -- <dl> description list </dl> , <dt> Description term </dt> , <dd> description details </dd>  -->
+
+    <dl>
+        <dt><b>C Programming </b></dt>
+    
+       <dd> Learn basics of C language including loops,arrays, and functions. </dd>
+    
+       <br>
+
+    <dt>   <b>Java</b>    </dt>
+
+    <dd>Introduction to Object-Oriented Programming concepts.</dd>
+
+    </dl>
+
+    <h2>Course Modules (Nested List)</h2>
+
+    <!-- use of tag -- <ol> ordered list , <ul> unordered list </ul> </ol>  -->
+
+
+
+     <ol>
+        <li>Module 1: Basics</li>
+        <ul> 
+            <li>Introduction</li>
+            <li>Histroy of Computers </li>
+        </ul>
+        <li>Module 2: Programming</li>
+
+        <ul>
+           <li>Variables & Data Types</li>
+           <li>Control Statements</li>
+        
+           
+        </ul>
+     </ol>
+
+
+
+
+    <h2>Project Work (Mixed list)</h2>
+
+    <!-- use of tag -- <ol> ordered list , <ul> unordered list </ul> </ol>  -->
+
+
+    <ul>
+        <li> Development </li>
+    <ol>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    
+    </ul>
+
+    <ul>
+        <Li>Database</Li>
+        <ol type="A" >
+            
+        <li>MySQL</li>
+        <li>MongoDB</li>
+
+        </ol>
+    </ul>
+
+
+
+</p>
+
+    
+</body>
+
+</html>
