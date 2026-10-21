@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment2</title>
+</head>
+
+<body>
+    
+    <h2>
+        <center> Global Daily News</center>
+     </h2>
+
+     <p>
+        <center> Your trusted Source  for latest Updates</center>
+    </p>
+
+     <hr>
+
+    <nav>
+         <center> 
+        <a href="#"> World | </a>
+        <a href="#"> Sports | </a>
+        <a href="#" > Entertainment | </a>
+        <a href="#" > Podcast | </a>
+        <a href="#" > Contact | </a>
+    </center>
+    
+    </nav>
+
+ <hr>
+</body>
+
+<body>
+
+<p>World news</p>
+
+<p>Today's top headline : Global leaders meet to discuss climate change initatives. </p>
+
+<img src="./bbc-news-1024-x-974-background-ftf1s0zj73ho88qc.webp" alt="image" >
+
+<br>
+
+<a href="#">Read more on BBC </a>
+
+<h2>Sports Update</h2>
+
+<p>Highlights of yesterday's football match with thrilling last-minute goals !</p>
+
+<iframe <iframe width="560" height="315" src="https://www.youtube.com/embed/VTLCoHnyACE?si=KFtMloGk0cA7EOAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+
+<h2>Entertainment Buzz</h2>
+
+<p> New movie trailer realeased today. Fans are excited !</p>
+
+<video controls autoplay loops muted >
+    <soucre src="./vid.mp4" > </soucre>
+</video>
+
+<hr>
+
+<h3>News Podcast</h3>
+
+<p>Listen to today's top headlines: </p>
+
+<audio controls muted autoplay loop>
+    <source src="./aud1.mp3"> </source>
+</audio>
+
+<hr>
+
+<h3>Contact Us</h3>
+
+<p>Email: info@globalnews.com
+    <br>
+    <br>
+    &copy; 2025 Global Daily News 
+</p>
+
+
+
+</body>
+</html>
