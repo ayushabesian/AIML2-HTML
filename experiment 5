@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+
+    <form>
+        Full Name:
+        <input type="text" placeholder="Enter your full name">
+        <br><br>
+
+        Email:
+        <input type="email" placeholder="Enter valid email address">
+        <br><br>
+
+        Password:
+        <input type="password" placeholder="Enter password">
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        Course:
+        <select>
+            <option>-- Select Course --</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+        </select>
+        <br><br>
+
+        Contact No:
+        <input type="tel" placeholder="Enter phone number">
+        <br><br>
+
+        Address:
+        <br>
+        <textarea rows="4" cols="40"
+        placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+</body>
+</html>
