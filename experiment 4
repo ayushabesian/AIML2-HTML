@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oyo room</title>
+</head>
+<body>
+    <fieldset>
+        <legend></legend>
+        <h1>Hotel Booking Form</h1>
+        <br><br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name">
+        <br><br>
+        <br><br>
+        <lebel for="email">Email:</lebel>
+        <input type="email" name="email" id="email"><br><br>
+        <br><br>
+        <lebel for="tel">Phone:</lebel>
+        <input type="tel" name="tel" id="tel"><br><br>
+        <br><br>
+        <lebel for="date">Check-in Date:</lebel>
+        <input type="date" name="date" id="date"><br><br>
+        <br><br>
+        <lebel for="date">Check-out Date:</lebel>
+        <input type="date" name="date" id="date"><br><br>
+        <br><br>
+        <lebel for="room">Room Type:</lebel>
+        <select name="room" id="room">
+            <option value="select">select</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="suite">Suite</option>
+        </select><br><br>
+        <br><br>
+        <lebel for="guests">Number of Guests:</lebel>
+        <input type="number" name="guests" id="guests"><br><br>
+        <br><br>
+        <lebel for="requests">Special Requests:</lebel>
+        <textarea name="requests" id="requests"></textarea><br><br>
+        <br><br>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset"><br><br>
+        </fieldset>
+    
+</body>
+</html>
